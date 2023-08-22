@@ -324,7 +324,7 @@
     }
 
     input[type="text"] {
-        background-color: salmon;
+        background-color: #407cff;
         border: none;
         padding: 0.5em;
         border-radius: 6px;
@@ -393,7 +393,7 @@
         margin-top: 0.2em;
         display: block;
         padding: 0.5em;
-        background: darksalmon;
+        background: #407cff;
         border-radius: 6px;
         white-space: pre-wrap;
     }

@@ -8,7 +8,7 @@
 
 <style>
     code {
-        background: darksalmon;
+        background: #407cff;
         padding: 0 0.2em;
         border-radius: 4px;
     }

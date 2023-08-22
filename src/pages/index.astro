@@ -15,11 +15,13 @@ import FrameCustomiser from "../components/FrameCustomiser.svelte";
         />
     </head>
     <body>
-        <h1>Discord User Widget</h1>
+        <h1>handlarz's modified discord User Widget</h1>
         <FrameCustomiser client:load />
 
         <h3>Source Code</h3>
         <a href="https://github.com/Vendicated/DiscordWidgets">GitHub Repo</a>
+        <span> | </span>
+        <a href="https://github.com/handlarz/DiscordWidgets">Modded Repo</a>
     </body>
 </html>
 
@@ -29,10 +31,19 @@ import FrameCustomiser from "../components/FrameCustomiser.svelte";
             Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
             sans-serif;
 
-        background: lightsalmon;
+        background: #36393e;
         margin: 2em;
 
         font-size: large;
+        color: #ffffff;
+    }
+
+    a {
+        color: #0099ff;
+    }
+
+    code {
+        background-color: #6fa2ff;
     }
 
     h3 {

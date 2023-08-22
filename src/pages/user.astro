@@ -91,6 +91,11 @@ if (import.meta.env.PROD)
                                     : "#" + user.discriminator)
                         }
                     </p>
+                    <a href="/repos">
+                        <object
+                            data="../../public/info.svg">
+                        </object>
+                    </a>*
                     {
                         showFlags && (
                             <div class="flags">
@@ -193,7 +198,6 @@ if (import.meta.env.PROD)
     body {
         margin: 0;
         padding: 0;
-        background: transparent;
     }
 
     .root {
@@ -269,6 +273,10 @@ if (import.meta.env.PROD)
         bottom: 8px;
         right: 8px;
         filter: brightness(0.8);
+    }
+
+    .svg-obj-info {
+        padding-right: 20px;
     }
 
     .flags img {
