@@ -1,5 +1,22 @@
 {
+  "name": "discord-widgets",
+  "private": true,
+  "type": "module",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
   "dependencies": {
-    "astro": "^2.10.12"
+    "@astrojs/cloudflare": "^6.2.4",
+    "@astrojs/svelte": "^2.1.1",
+    "astro": "^2.3.4",
+    "svelte": "^3.54.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20230419.0"
   }
 }
